@@ -1,31 +1,71 @@
 ## Tech stack
 
-Define your technical stack below. This serves as a reference for all team members and helps maintain consistency across the project.
-
 ### Framework & Runtime
-- **Application Framework:** [e.g., Rails, Django, Next.js, Express]
-- **Language/Runtime:** [e.g., Ruby, Python, Node.js, Java]
-- **Package Manager:** [e.g., bundler, pip, npm, yarn]
+
+- **Application Framework:** Expo, Next.js
+- **Language/Runtime:** TypeScript, Node.js (LTS)
+- **Package Manager:** Bun
+- **Monorepo Management:** Turborepo
+
+### AI Tools
+
+- **IDE:** Cursor
+- **AI Coding Assistant:** Claude Code
+- **Code Review:** CodeRabbit
+- **Repository Manager**: Repomix
+- **AI-Powered Features**: ai, @ai-sdk/openai, @ai-sdk/anthropic
 
 ### Frontend
-- **JavaScript Framework:** [e.g., React, Vue, Svelte, Alpine, vanilla JS]
-- **CSS Framework:** [e.g., Tailwind CSS, Bootstrap, custom]
-- **UI Components:** [e.g., shadcn/ui, Material UI, custom library]
+
+- **JavaScript Framework:** React, React Native
+- **CSS Framework:** Nativewind, Tailwind CSS, Unistyles
+- **UI Components:** React Native Reusable, shadcn/ui
+- **State Management:** React Context API
+- **Data Fetching:** TanStack Query
+- **HTTP Client:** Apisauce
+- **Form Management:** React Hook Form
+- **Schema Validation:** Zod
+- **Keyboard Shortcuts:** React Hotkeys Hook
+- **URL Search Params State:** Nuqs
+- **Internationalization:** expo-localization, react-i18next, next-intl (SEO)
+- **Local-First:** Legend-state
+- **Email Templates:** React Email
 
 ### Database & Storage
-- **Database:** [e.g., PostgreSQL, MySQL, MongoDB]
-- **ORM/Query Builder:** [e.g., ActiveRecord, Prisma, Sequelize]
-- **Caching:** [e.g., Redis, Memcached]
+
+- **Database:** PostgreSQL
+- **ORM/Query Builder:** Prisma
+- **Caching:** Redis
+
+### Backend
+
+- **Background Jobs & Workflows:** Inngest
+- **Server Endpoints:** Next.js Route Handlers
+- **Server Actions validation:** Next Safe Action
+- **Backoffice** : `/admin` routes (Next.js)
 
 ### Testing & Quality
-- **Test Framework:** [e.g., Jest, RSpec, pytest]
-- **Linting/Formatting:** [e.g., ESLint, Prettier, RuboCop]
+
+- **Test Framework:** Jest, Testing Library, Playwright, Maestro
+- **Type Safety:** TypeScript (strict mode)
+- **Linting/Formatting:** Biome, Ultracite
+- **Code Analysis:** Codecov
+- **Dependency Analysis:** Knip
+- **Security Scanning:** Snyk
+- **Performance:** Lighthouse, Flashlight
+- **Git Hooks:** Lefthook
 
 ### Deployment & Infrastructure
-- **Hosting:** [e.g., Heroku, AWS, Vercel, Railway]
-- **CI/CD:** [e.g., GitHub Actions, CircleCI]
+
+- **Asset storage:** Amazon S3
+- **CDN:** CloudFront
+- **Hosting:** Vercel
+- **Database Provider:** Neon
+- **CI/CD:** GitHub Actions
 
 ### Third-Party Services
-- **Authentication:** [e.g., Auth0, Devise, NextAuth]
-- **Email:** [e.g., SendGrid, Postmark]
-- **Monitoring:** [e.g., Sentry, Datadog]
+
+- **Analytics:** PostHog
+- **Authentication:** Better Auth
+- **Email:** Resend
+- **Monitoring:** Sentry, Datadog
