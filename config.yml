@@ -9,7 +9,7 @@ base_install: true
 # your main agent orchestrates multiple subagents to perform long-running tasks autonomously.
 #
 # You can override this by running:
-# ~/.agent-os/scripts/project-install.sh --multi-agent-mode [true/false] --multi-agent-tool [tool-name]
+# ~/agent-os/scripts/project-install.sh --multi-agent-mode [true/false] --multi-agent-tool [tool-name]
 # ================================================
 
 multi_agent_mode: true
@@ -25,7 +25,7 @@ multi_agent_tool: claude-code
 # In single-agent mode, you deliver prompts to your main agent to perform tasks step-by-step.
 #
 # You can override this by running:
-# ~/.agent-os/scripts/project-install.sh --single-agent-mode [true/false] --single-agent-tool [tool-name]
+# ~/agent-os/scripts/project-install.sh --single-agent-mode [true/false] --single-agent-tool [tool-name]
 # ================================================
 
 single_agent_mode: false
@@ -38,7 +38,7 @@ single_agent_tool: generic
 # Use this profile by default.
 #
 # You can override this by running:
-# ~/.agent-os/scripts/project-install.sh --profile [profile-name]
+# ~/agent-os/scripts/project-install.sh --profile [profile-name]
 # ================================================
 
 profile: default
